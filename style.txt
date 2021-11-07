@@ -1,0 +1,52 @@
+
+body{
+    background-color: rgb(252, 198, 149);
+}
+.navbar {
+    padding: 10px;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 5px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.navbar-nav{
+    padding-left: 700px;
+}
+.nav-link{
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    margin-left: 6px;
+    transition: 0.6s;
+    border-radius: 20px;
+}
+.nav-link:hover{
+transform: translateY(-20px);
+background:red;
+}
+.label {
+    font-size: 50px;
+}
+
+footer{
+    background: #04080a;
+    padding: 150px;
+}
+footer h6{
+    font-weight: bold;
+    color: #ccc !important;
+    font-style: italic;
+    font-size: 30px !important;
+} 
+footer span{
+    font-weight: bold;
+    color: #ccc !important;
+    font-style: italic;
+    font-size: 20px !important;
+}
+footer input{
+    margin: 30px auto !important;
+}
